@@ -12,5 +12,5 @@ datasource db {
 
 model FavouriteRecipes {
   id        String   @id @default(auto()) @map("_id") @db.ObjectId
-  recipeId String @unique
+  recipeId Int @unique
 }
