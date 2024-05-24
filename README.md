@@ -14,6 +14,10 @@ Welcome to Food Recipe website. Built using cutting-edge technologies including 
      ```bash
      npm install
      ```
+   - Run the Backend:
+     ```bash
+     npm start
+     ```     
 - **Spoonacular API**:
   - Build a .env file under backend diretory. Add the api key to the `API_KEY` variable in the .env file.
   - If you see .env file in this github, please change the `API_KEY` to your own api key.
@@ -23,7 +27,7 @@ Welcome to Food Recipe website. Built using cutting-edge technologies including 
 -  If you see `.env` file in this github, please change the `DATABASE_URL` to your own connection string.
 
 **Setting up the Frontend**:
--  Navigate to the frontend directory:
+-  Navigate to the frontend directory, install packages, and run the frontend:
      ```bash
      cd frontend
      npm install
